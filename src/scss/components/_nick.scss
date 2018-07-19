@@ -2,7 +2,7 @@
 
 header {
   //margin-top: 60px;
-	background: #fff url('../images/trentAlpha.png') no-repeat left center / cover;
+	background: #ccc url('../images/trentAlpha.png') no-repeat left center / cover;
   padding: 150px 0;
 }
 
@@ -11,7 +11,7 @@ header {
   color: black;
   text-shadow: 3px 3px 4px white;
   margin-top: -3.5rem;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 
@@ -22,4 +22,22 @@ header {
   color: white;
   font-weight: bold;
   font-size: 1.2em;
+}
+
+.installation {
+	background: white;
+	text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+	.setup {
+		background: #fafafa;
+		margin-bottom: 60px;
+	}
+	.installation {
+		padding: 20px;
+		border: 1px solid #efefef;
+		margin-top: -100px;
+		margin-bottom: -100px;
+	}
 }
