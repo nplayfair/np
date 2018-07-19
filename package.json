@@ -28,5 +28,6 @@
     "url": "https://github.com/nplayfair/primitive/issues"
   },
   "homepage": "https://taniarascia.github.io/primitive",
-  "private": true
+  "private": true,
+  "devDependencies": {}
 }
