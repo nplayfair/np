@@ -27,16 +27,28 @@
 }
 
 .headline-container {
-	margin-top: -6.0rem;
+	margin-top: -8.0rem;
 }
 
 #headline {
 	font-family: 'Hind', $font-family;
   font-size: 6em;
   color: black;
+	// padding-bottom: 0.1em;
   // text-shadow: 3px 3px 4px white;
   // padding-top: -60.0rem;
   // text-transform: uppercase;
+}
+
+.get-in-touch {
+	display: flex;
+	min-height: 50px;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#contact-button {
+	font-size: 1.2em;
 }
 
 /* Mobile */
@@ -46,13 +58,23 @@
 		display: none;
 	}
 
+	.headline-container {
+		margin-top: -8rem;
+	}
+
 	#headline {
 	  font-size: 4em;
 	}
+
+	.get-in-touch {
+		min-height: 9rem;
+	}
+
 	.hero {
 		background-position: 0% 30%;
 	  padding: 100px 0;
 		min-height: 300px;
+		max-height: 320px;
 		border-bottom: 6px solid $nick-green;
 	}
 }

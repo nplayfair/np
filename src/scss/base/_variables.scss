@@ -31,6 +31,7 @@ $error: #D33C40;
 $bq-border: 16px solid #f0f0f0;
 $navbar-color: rgb(50, 50, 50);
 $nick-green: #6ac08f;
+$nick-accent: #99dab6;
 
 /* Typography */
 
@@ -41,7 +42,7 @@ $font-style: normal;
 $font-variant: normal;
 $font-weight: normal;
 $font-color: #404040;
-$font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+$font-family: Hind, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
 $line-height: 1.6;
 
 // Headings
@@ -99,6 +100,12 @@ $button-text-transform: none;
 $accent-button-background: $secondary-color;
 $accent-button-color: #ffffff;
 $accent-button-color-hover: #ffffff;
+
+// Nick button
+$nick-button-background: $nick-green;
+$nick-button-color: #ffffff;
+$nick-button-color-hover: #ffffff;
+
 
 // Muted Buttons
 $muted-border: 1px solid $accent-color;

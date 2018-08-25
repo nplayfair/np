@@ -6,7 +6,6 @@
   }
 
   nav.navigation {
-
   }
 
   ul.nav-links {
@@ -22,7 +21,7 @@
       }
       a:hover {
         // font-weight: 800;
-        color: #99dab6;
+        color: $nick-accent;
         transform: scale(1.2, 1.2);
       }
 
