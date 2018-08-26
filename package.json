@@ -12,11 +12,13 @@
     "website"
   ],
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "*"
   },
   "scripts": {
     "sass": "node-sass ./src/scss/ -o ./dist/css/  -w -r --source-map-embed --source-map-contents",
-    "build-css": "node-sass ./src/scss -o ./dist/css/ -r --output-style compressed"
+    "build-css": "node-sass ./src/scss -o ./dist/css/ -r --output-style compressed",
+    "ghdeploy": "gh-pages -d dist"
   },
   "license": "MIT",
   "homepage": "https://nickplayfair.co.uk",
