@@ -4,7 +4,6 @@
 /* Header */
 
 .hero {
-  //margin-top: 60px;
 	background: #ccc url('../images/trentAlpha.png') no-repeat left center / cover;
 	background-position: 0% 30%;
   padding: 200px 0;
@@ -85,3 +84,19 @@
 }
 
 /*================*/
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: $navbar-color;
+    color: $accent-color;
+		padding: 8px 0;
+}
+
+@media screen and (max-width: 600px) {
+	footer {
+		padding: 2px 0;
+	}
+}
