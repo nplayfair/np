@@ -25,24 +25,29 @@
       <ul class="nav-links" role="navigation">
         <li id="brand"><strong>NP</strong></li>
         <li id="nav-home"class="active"><a href="#"><i class="fas fa-home"></i>Home</a></li>
-        <li id="nav-about"><a href="#"><i class="fas fa-portrait"></i>About</a></li>
-        <li id="nav-portfolio"><a href="#"><i class="fas fa-file-code"></i>Portfolio</a></li>
-        <li id="nav-contact"><a href="#"><i class="fas fa-address-card"></i>Contact</a></li>
+        <li id="nav-about"><a href="#about"><i class="fas fa-portrait"></i>About</a></li>
+        <li id="nav-portfolio"><a href="portfolio.html"><i class="fas fa-file-code"></i>Portfolio</a></li>
+        <li id="nav-contact"><a href="#contact"><i class="fas fa-address-card"></i>Contact</a></li>
       </ul>
     </nav>
     <div class="hero">
-      <div class="small-container headline-container text-center">
+      <div class="small-container headline-container">
         <h1 id="headline">Nick Playfair</h1>
-        <!-- <p id="myintro">Hello! I'm a developer based in Nottingham, UK.</p> -->
+        <!-- <p>Web developer</p> -->
+      </div>
+      <div class="get-in-touch">
+        <a href="#contact"
+        aria-label="Get in touch"><button id="contact-button" class="button">
+        Get in touch</button></a>
       </div>
     </div>
   </header>
 
-  <main class="content">
+  <main class="content-section">
     <div class="medium-container">
-      <article>
+      <article id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm a developer from Nottingham, UK. I've been interested in all things computing since I was a child and studied for my degree in Computer Science at the University of Lincoln.
+        <p>Hello! I'm a developer from Nottingham, UK. I've been interested in all things computing for as long as I can remember, and studied for my degree in Computer Science at the University of Lincoln.
           I have a particular passion for web development and open source projects.</p>
       </article>
 
@@ -56,35 +61,35 @@
       <article>
         <h2>What I Enjoy</h2>
         <p>In my personal time I love to go swimming, play guitar, play and collect retro and import games (my favourite is the Nintendo Famicom).</p>
-        <h3>Currently Using</h3>
-        <ul>
-          <li><strong>Computer:</strong> MacBook Pro 2014</li>
-          <li><strong>OS:</strong> MacOS, Ubuntu Linux</li>
-          <li><strong>Editor:</strong> Atom, vim</li>
-          <li><strong>Guitar:</strong> Fender Jaguar, Vox AC4 Amp</li>
-        </ul>
       </article>
 
-      <p>
-        <a href="https://github.com/nplayfair"
-        aria-label="Follow @nplayfair on GitHub">
-        <button class="muted-button"><i class="fab fa-github"></i> GitHub</button></a>
-
-        <a href="https://twitter.com/nplayfair"
+      <article id="contact">
+        <h2>Contact Me</h2>
+        <p>some ways to get in touch with me:</p>
+        <p class="text-center"><a href="https://twitter.com/nplayfair"
         aria-label="Follow @nplayfair on Twitter"><button class="muted-button">
         <i class="fab fa-twitter"></i> Twitter</button></a>
 
         <a href="https://www.linkedin.com/in/nplayfair/"
         aria-label="View my profile on LinkedIn"><button class="muted-button">
-        <i class="fab fa-linkedin"></i> LinkedIn</button></a>
+        <i class="fab fa-linkedin"></i> LinkedIn</button></a></p>
+      </article>
+
+      <!-- <p>
+        <a href="https://github.com/nplayfair"
+        aria-label="Follow @nplayfair on GitHub">
+        <button class="muted-button"><i class="fab fa-github"></i> GitHub</button></a>
+
+
 
         <a href="/projects.html"
         aria-label="View my projects"><button class="muted-button">
         <i class="fas fa-code"></i> Projects</button></a>
-      </p>
+      </p> -->
     </div>
   </main>
-
+  <footer class="text-center">&copy; N. Playfair 2018. Photos
+    (<a rel='license' href='https://creativecommons.org/licenses/by-nc/2.0/' target='_blank'>CC BY-NC 2.0</a>)&nbsp;by&nbsp;<a xmlns:cc='http://creativecommons.org/ns#' rel='cc:attributionURL' property='cc:attributionName' href='/' target='_blank'>Me</a></footer>
 
 
     <script src="js/script.js"></script>

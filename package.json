@@ -16,7 +16,7 @@
   },
   "scripts": {
     "sass": "node-sass ./src/scss/ -o ./dist/css/  -w -r --source-map-embed --source-map-contents",
-    "build-css": "node-sass ./src/scss -o ./dist/css/ -r --source-map-embed --source-map-contents"
+    "build-css": "node-sass ./src/scss -o ./dist/css/ -r --output-style compressed"
   },
   "license": "MIT",
   "homepage": "https://nickplayfair.co.uk",

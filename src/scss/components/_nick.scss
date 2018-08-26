@@ -1,63 +1,10 @@
 /* Nick Extra CSS */
 
-.hero {
-  //margin-top: 60px;
-	background: #ccc url('../images/trentAlpha.png') no-repeat left center / cover;
-	background-position: 0% 30%;
-  padding: 200px 0;
-	min-height: 500px;
-	border-bottom: 6px solid $nick-green;
-}
-
-@media screen and (max-width: 600px) {
-
-}
-
-#brand {
-	font-family: $heading-font-family;
-	color: $accent-color;
-	margin-right: 50px;
-	align-self: center;
-	border-bottom: 1px dotted $accent-color;
-	transition: transform 0.75s;
-}
-
-#brand:hover {
-	transform: rotate(360deg);
-}
-
-.headline-container {
-	margin-top: -6.0rem;
-}
-
-#headline {
-	font-family: 'Hind', $font-family;
-  font-size: 6em;
-  color: black;
-  // text-shadow: 3px 3px 4px white;
-  // padding-top: -60.0rem;
-  // text-transform: uppercase;
-}
-
-/* Mobile */
-
-@media screen and (max-width: 600px) {
-	#brand {
-		display: none;
-	}
-
-	#headline {
-	  font-size: 4em;
-	}
-	.hero {
-		background-position: 0% 30%;
-	  padding: 100px 0;
-		min-height: 300px;
-		border-bottom: 6px solid $nick-green;
+main {
+	a {
+		
 	}
 }
-
-/* =============== */
 
 #myintro {
   margin-top: 5em;

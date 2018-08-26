@@ -6,7 +6,6 @@
   }
 
   nav.navigation {
-
   }
 
   ul.nav-links {
@@ -16,24 +15,25 @@
       }
       a {
         color: $accent-color;
-        font-weight: 600;
+        font-weight: 700;
+        text-transform: uppercase;
         text-decoration: none;
         transition: all 0.33s;
       }
       a:hover {
-        // font-weight: 800;
-        color: #99dab6;
+        color: $nick-accent;
         transform: scale(1.2, 1.2);
       }
 
       align-self: stretch;
       display: flex;
       align-items: center;
+
     }
 
     li.active, li.active>a {
       color: $nick-green;
-      font-weight: 800;
+      font-weight: 700;
     }
 
     display: flex;
@@ -49,7 +49,7 @@
   /* Mobile */
   @media screen and (max-width: 600px) {
   ul.nav-links {
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 5px;

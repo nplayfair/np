@@ -69,6 +69,21 @@ a.accent-button {
     }
 }
 
+// Nick button color
+.nick-button,
+a.nick-button {
+    color: $nick-button-color;
+    border: 3px solid white;
+    background: $nick-button-background;
+    &:hover,
+    &:focus,
+    &:active {
+        color: $nick-button-color-hover;
+        border: 1px solid darken($nick-button-background, 10%);
+        background: darken($nick-button-background, 10%);
+    }
+}
+
 // Muted buttons
 .muted-button,
 a.muted-button {
